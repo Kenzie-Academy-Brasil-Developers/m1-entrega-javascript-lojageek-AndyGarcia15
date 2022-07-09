@@ -1,0 +1,25 @@
+.body{
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    height: 70px;
+}
+
+button {
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #0A99FE;
+    
+}
+.produtos {
+    margin-left: 1000px;
+}
+section{
+   width: 275px;
+   height: 207px;
+}
