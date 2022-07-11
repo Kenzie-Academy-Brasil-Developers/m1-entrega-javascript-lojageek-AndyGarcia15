@@ -32,7 +32,7 @@ function createPaintingItem(nome,valor,imagem){ // se for Paintings
 
 createActionItem('menininha', 1000,'./assets/img/actions/animewoman.jpg' )
 createActionItem('goku', 1000,'./assets/img/actions/dragonballpersonagem.jpg' ) // inserindo os objetos
-createActionItem('luke', 1000,'./assets/img/actions/starwarspersonagem.jpg' )
+createActionItem('yodinha', 1000,'./assets/img/actions/starwarspersonagem.jpg' )
 createPaintingItem('relogio', 500,'./assets/img/painting/clock.jpg' )
 createPaintingItem('controle', 500,'./assets/img/painting/gamepad.jpg' )
 createPaintingItem('robozão', 500,'./assets/img/painting/personagem.jpg' )
