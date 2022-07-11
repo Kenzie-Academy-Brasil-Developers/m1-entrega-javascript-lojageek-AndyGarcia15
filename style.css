@@ -1,25 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 .body{
-    
+    font-family: 'Roboto', sans-serif;
+    height: 1080px;
 }
 .menu{
     display: flex;
     align-items: center;
-    border: 1px solid black;
+    border-bottom: 1px solid #c7c2c2;
     height: 70px;
+    gap: 1300px;
 }
 
-button {
-    margin: 10px;
+.botoes{
+    display: flex;
+    column-gap: 20px;
+}
+button{
+    
     width: 150px;
     height: 40px;
     font-size: 20px;
+    border-radius: 10px;
     background-color: #0A99FE;
+    color: #fcfafa;
+    
     
 }
-.produtos {
-    margin-left: 1000px;
+.botoes :hover{
+    color: #f7fbfd;
+    opacity: 0.3;
+    
+    
 }
-section{
-   width: 275px;
-   height: 207px;
+
+
+
+/* body */
+.container{
+    height: 1080px;
 }
+
+.paintings {
+
+    
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.figures{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+h2 {
+    font-size: 20px;
+    
+}
+ul{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    column-gap: 15px;
+    
+    
+    
+}
+
+li { /* cards */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 207px;
+    height: 275px;
+    row-gap: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+    background-color: #fcfafa;
+    
+
+    
+   
+}
+
+li img {
+    
+    width: 207px;
+    height: 137px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+
+}
+.nome {
+    
+    margin: 15px auto;
+    font-size: 20px;
+    
+
+}
+.valor {
+    
+    font-size: 16px;
+    margin: 13px auto;
+    color: #868383;
+    
+}
+
+
+
